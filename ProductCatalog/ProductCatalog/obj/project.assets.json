@@ -1477,11 +1477,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\anton\\RiderProjects\\ToDoApp\\ToDoApp\\ToDoApp.csproj",
-      "projectName": "ToDoApp",
-      "projectPath": "C:\\Users\\anton\\RiderProjects\\ToDoApp\\ToDoApp\\ToDoApp.csproj",
+      "projectUniqueName": "C:\\Users\\anton\\RiderProjects\\ProductCatalog\\ProductCatalog\\ProductCatalog.csproj",
+      "projectName": "ProductCatalog",
+      "projectPath": "C:\\Users\\anton\\RiderProjects\\ProductCatalog\\ProductCatalog\\ProductCatalog.csproj",
       "packagesPath": "C:\\Users\\anton\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\anton\\RiderProjects\\ToDoApp\\ToDoApp\\obj\\",
+      "outputPath": "C:\\Users\\anton\\RiderProjects\\ProductCatalog\\ProductCatalog\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\anton\\AppData\\Roaming\\NuGet\\NuGet.Config"
