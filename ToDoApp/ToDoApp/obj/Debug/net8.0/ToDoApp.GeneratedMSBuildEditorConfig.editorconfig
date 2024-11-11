@@ -15,12 +15,14 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = ToDoApp
-build_property.ProjectDir = C:\Users\anton\RiderProjects\ToDoApp\ToDoApp\
+build_property.ProjectDir = C:\Users\tmapl\RiderProjects\ToDoApp\ToDoApp\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.EffectiveAnalysisLevelStyle = 8.0
+build_property.EnableCodeStyleSeverity = 
 
-[C:/Users/anton/RiderProjects/ToDoApp/ToDoApp/App.axaml]
+[C:/Users/tmapl/RiderProjects/ToDoApp/ToDoApp/App.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
-[C:/Users/anton/RiderProjects/ToDoApp/ToDoApp/MainWindow.axaml]
+[C:/Users/tmapl/RiderProjects/ToDoApp/ToDoApp/MainWindow.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
