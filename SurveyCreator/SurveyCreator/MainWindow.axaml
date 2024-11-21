@@ -20,12 +20,12 @@
                                 <ComboBoxItem Content="Technologia"/>
                                 <ComboBoxItem Content="Polityka"/>
                         </ComboBox>
-                        <Button Name="AddAnswerButton" Content="Dodaj" Width="100" Margin="0,10" HorizontalAlignment="Center"/>
+                        <Button Name="AddAnswerButton" Content="Dodaj" Width="100" Margin="0,10" HorizontalAlignment="Center" Click="AddAnswerButton_Click"/>
                 </StackPanel>
                 
-                <ListBox Name="QuestionsListBox" Width="500" Height="150" Margin="0,15" HorizontalAlignment="Center"/>
+                <ListBox Name="QuestionsListBox" Width="500" Height="150" Margin="0,15" HorizontalAlignment="Center"/>  
                 
-                <Button Name="SaveButton" Content="Zapisz" Width="100" Margin="0,15" HorizontalAlignment="Center"/> 
+                <Button Name="SaveButton" Content="Zapisz" Width="100" Margin="0,15" HorizontalAlignment="Center" Click="SaveButton_Click"/> 
                 
         </StackPanel>
 </Window>
