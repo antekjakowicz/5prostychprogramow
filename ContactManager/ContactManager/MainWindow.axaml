@@ -1,0 +1,42 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        Width="600" Height="600"
+        x:Class="ContactManager.MainWindow"
+        Background="Gray"
+        Title="ContactManager">
+        <StackPanel Margin="10">
+               
+                        <TextBlock Text="Imie:" VerticalAlignment="Center" />
+                        <TextBox x:Name="Fname" Name="txtFirstName" />
+                        
+                        <TextBlock  Text="Nazwisko:" VerticalAlignment="Center" />
+                        <TextBox x:Name="Lname"  Name="txtLastName" />
+                        
+                        <TextBlock Text="Numer:" VerticalAlignment="Center" />
+                        <TextBox x:Name="Phone" Name="txtPhone" />
+                        
+                        <TextBlock Text="Email:" VerticalAlignment="Center" />
+                        <TextBox x:Name="Email" Name="txtEmail" />
+                        
+                        <CheckBox x:Name="Fav" Name="chkFavorite" Content="Dodaj jako ulubiony"  />
+              
+                
+                <StackPanel Orientation="Horizontal" Margin="0,10,0,10">
+                        <Button Content="Dodaj Kontakt" Width="120" Margin="5" Name="btnAddContact" Background="ForestGreen"  Click="BtnAddContact_OnClick" />
+                        <Button Content="Usuń Kontakt" Width="120" Margin="5" Name="btnDeleteContact"  Background="Tomato" Click="BtnDeleteContact_OnClick" />
+                </StackPanel>
+
+         
+                <ComboBox x:Name="cmbFilter" Width="200"   >
+                        <ComboBoxItem Content="Wszystkie"  /> 
+                        <ComboBoxItem Content="Ulubione"  />
+                </ComboBox>
+
+                <ListBox  x:Name="lcon" Name="lContacts" Height="200" Margin="0,10,0,0"  />
+        </StackPanel>
+    
+    
+</Window>
