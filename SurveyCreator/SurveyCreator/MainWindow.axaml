@@ -1,0 +1,31 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        x:Class="SurveyCreator.MainWindow"
+        Title="SurveyCreator">
+        <StackPanel HorizontalAlignment="Center">
+                <TextBox Name="QuestionTextBox" Width="300" Watermark="Dodaj pytanie" Margin="0,15" HorizontalAlignment="Center"/>
+                
+                <StackPanel Orientation="Horizontal" Margin="0,10" HorizontalAlignment="Center">
+                        <RadioButton Name="SingleChoiceRadioButton" Content="Jednokrotny wybór" GroupName="QuestionType"/>
+                        <RadioButton Name="MultipleChoiceRadioButton" Content="Wielokrotny wybór" GroupName="QuestionType"/>
+                </StackPanel>
+                
+                <StackPanel HorizontalAlignment="Center">
+                        <TextBox Name="AnswerTextBox" Width="300" Watermark="Dodaj odpowiedz" HorizontalAlignment="Center"/>
+                        <ComboBox Name="CategoryComboBox" Margin="0,15" HorizontalAlignment="Center">
+                                <ComboBoxItem Content="Sport"/>
+                                <ComboBoxItem Content="Technologia"/>
+                                <ComboBoxItem Content="Polityka"/>
+                        </ComboBox>
+                        <Button Name="AddAnswerButton" Content="Dodaj" Width="100" Margin="0,10" HorizontalAlignment="Center" Click="AddAnswerButton_Click"/>
+                </StackPanel>
+                
+                <ListBox Name="QuestionsListBox" Width="500" Height="150" Margin="0,15" HorizontalAlignment="Center"/>  
+                
+                <Button Name="SaveButton" Content="Zapisz" Width="100" Margin="0,15" HorizontalAlignment="Center" Click="SaveButton_Click"/> 
+                
+        </StackPanel>
+</Window>

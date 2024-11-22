@@ -1,0 +1,30 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        x:Class="EventCalendar.MainWindow"
+        Title="EventCalendar">
+        
+        <StackPanel Margin="0,10" HorizontalAlignment="Center">
+                <TextBox Name="EventNameTextBox" Watermark="Wpisz nazwę wydarzenia"/>
+                
+                <ComboBox Name="DayComboBox" Margin="0,20" SelectedIndex="0">
+                        <ComboBoxItem Content="Poniedzialek"/>
+                        <ComboBoxItem Content="Wtorek"/>
+                        <ComboBoxItem Content="Sroda"/>
+                        <ComboBoxItem Content="Czwartek"/>
+                        <ComboBoxItem Content="Piatek"/>
+                        <ComboBoxItem Content="Sobota"/>
+                        <ComboBoxItem Content="Niedzielka"/>
+                </ComboBox>
+                
+                <CheckBox Name="ImportantCheckBox" Content="Oznacz jako wazne" Margin="0,10"/>
+                
+                <Button Content="Dodaj wydarzenie" Click="AddEventClicked" Margin="0,20"/>
+                
+                <ListBox Name="EventListBox"/>
+                
+        </StackPanel>
+        
+</Window>

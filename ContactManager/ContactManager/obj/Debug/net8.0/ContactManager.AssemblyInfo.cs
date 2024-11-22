@@ -14,8 +14,13 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d4a613fddc7028b9ca638bdd6ecc12a163d4991d")]
+<<<<<<< HEAD:ContactManager/ContactManager/obj/Debug/net8.0/ContactManager.AssemblyInfo.cs
 [assembly: System.Reflection.AssemblyProductAttribute("ContactManager")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ContactManager")]
+=======
+[assembly: System.Reflection.AssemblyProductAttribute("ToDoApp")]
+[assembly: System.Reflection.AssemblyTitleAttribute("ToDoApp")]
+>>>>>>> c564f2381913884d1ab4d643b469b85d0b3e34ec:ToDoApp/ToDoApp/obj/Debug/net8.0/ToDoApp.AssemblyInfo.cs
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Wygenerowane przez klasę WriteCodeFragment programu MSBuild.

@@ -14,15 +14,25 @@ build_property.InvariantGlobalization =
 build_property.PlatformNeutralAssembly = 
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
+<<<<<<< HEAD:ContactManager/ContactManager/obj/Debug/net8.0/ContactManager.GeneratedMSBuildEditorConfig.editorconfig
 build_property.RootNamespace = ContactManager
 build_property.ProjectDir = C:\Users\tmapl\RiderProjects\ContactManager\ContactManager\
+=======
+build_property.RootNamespace = ToDoApp
+build_property.ProjectDir = C:\Users\anton\RiderProjects\ToDoApp\ToDoApp\
+>>>>>>> c564f2381913884d1ab4d643b469b85d0b3e34ec:ToDoApp/ToDoApp/obj/Debug/net8.0/ToDoApp.GeneratedMSBuildEditorConfig.editorconfig
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
-build_property.EffectiveAnalysisLevelStyle = 8.0
-build_property.EnableCodeStyleSeverity = 
 
+<<<<<<< HEAD:ContactManager/ContactManager/obj/Debug/net8.0/ContactManager.GeneratedMSBuildEditorConfig.editorconfig
 [C:/Users/tmapl/RiderProjects/ContactManager/ContactManager/App.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
 [C:/Users/tmapl/RiderProjects/ContactManager/ContactManager/MainWindow.axaml]
+=======
+[C:/Users/anton/RiderProjects/ToDoApp/ToDoApp/App.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[C:/Users/anton/RiderProjects/ToDoApp/ToDoApp/MainWindow.axaml]
+>>>>>>> c564f2381913884d1ab4d643b469b85d0b3e34ec:ToDoApp/ToDoApp/obj/Debug/net8.0/ToDoApp.GeneratedMSBuildEditorConfig.editorconfig
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml

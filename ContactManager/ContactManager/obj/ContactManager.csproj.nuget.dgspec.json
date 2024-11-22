@@ -1,6 +1,7 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< HEAD:ContactManager/ContactManager/obj/ContactManager.csproj.nuget.dgspec.json
     "C:\\Users\\tmapl\\RiderProjects\\ContactManager\\ContactManager\\ContactManager.csproj": {}
   },
   "projects": {
@@ -12,9 +13,22 @@
         "projectPath": "C:\\Users\\tmapl\\RiderProjects\\ContactManager\\ContactManager\\ContactManager.csproj",
         "packagesPath": "C:\\Users\\tmapl\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\tmapl\\RiderProjects\\ContactManager\\ContactManager\\obj\\",
+=======
+    "C:\\Users\\anton\\RiderProjects\\ToDoApp\\ToDoApp\\ToDoApp.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\anton\\RiderProjects\\ToDoApp\\ToDoApp\\ToDoApp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\anton\\RiderProjects\\ToDoApp\\ToDoApp\\ToDoApp.csproj",
+        "projectName": "ToDoApp",
+        "projectPath": "C:\\Users\\anton\\RiderProjects\\ToDoApp\\ToDoApp\\ToDoApp.csproj",
+        "packagesPath": "C:\\Users\\anton\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\anton\\RiderProjects\\ToDoApp\\ToDoApp\\obj\\",
+>>>>>>> c564f2381913884d1ab4d643b469b85d0b3e34ec:ToDoApp/ToDoApp/obj/ToDoApp.csproj.nuget.dgspec.json
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\tmapl\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\anton\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -36,7 +50,7 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "all"
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -75,30 +89,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[8.0.8, 8.0.8]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[8.0.8, 8.0.8]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[8.0.8, 8.0.8]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[8.0.8, 8.0.8]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100-rc.1.24452.12/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
